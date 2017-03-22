@@ -97,7 +97,6 @@ class GameArea extends Component {
   }
 
   render() {
-    console.log(this.state);
     return (
       <View>
         {this.renderGameOrWinner()}

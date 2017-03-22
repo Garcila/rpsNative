@@ -2,8 +2,7 @@ import React from 'react';
 import { Text } from 'react-native';
 import { Card, CardSection } from './common';
 
-const Winner = ({ children, p }) => {
-  console.log(`props is: ${p}`);
+const Winner = ({ children }) => {
   return (
     <Card >
       <CardSection>
